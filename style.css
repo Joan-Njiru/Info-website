@@ -113,6 +113,27 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.ourteam{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#veg1{
+    width: 230px;
+    height: 230px;
+    border:  2px;
+    border-radius: 10px;
+}
+#veg2{
+    width: 180px;
+    height: 230px;
+    border:  2px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
 .products{
     width: 100%;
     text-align: center;
@@ -155,6 +176,127 @@ footer{
 footer ul li{
     list-style: none;
 }
+
+/* media querries */
+@media only screen and (max-width:700px) {
+ body{
+overflow-x: hidden;
+ }
+ .topnav{
+    width: 100%;
+ }
+ .logo{
+ }
+ .nav{
+    display: none;
+ }
+ .aboutus{
+   display: none;
+ }
+ #about{
+    font-size: 20px;
+ }
+ .title{
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 25px;
+ }
+ .information{
+    width: 90%;
+ }
+ .info p{
+    font-size: 10px;
+    display: contents;
+    width: 55%;
+ }
+ .products p{
+    font-style: italic;
+ }
+ .mama-mbogas{
+    width: 40%;
+ }
+ #woman{
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+ }
+ #signup{
+    padding: 1px 2px 1px 2px;
+    font-size: 10px;
+ }
+ .range{
+    width: 100%;
+ }
+ #veg{
+    width:50px ;
+    height: 60px;
+ }
+ #veg1{
+    width:100px ;
+    height: 120px;
+ }
+ #veg2{
+    width:100px ;
+    height:120px;
+ }
+ .loyalty{
+    width: 100%;
+    font-size: 30px;
+ }
+ .credit{
+    width: 100%;
+    display: flex;
+ }
+ .phone{
+    width: 40%;
+    margin-top: 180px;
+ }
+ #credit{
+    width: 150px;
+    height: 120px;
+ }
+ #cred{
+    font-size: 15px;
+    align-items: center;
+ }
+ .middle{
+    width: 45%;
+    margin-left: 30px;
+ }
+ .middle p{
+    font-size: 15px;
+ }
+ .delivery h5{
+    font-size: 15px;
+ }
+ .deliver{
+    width: 100%;
+ }
+ .footer{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .foot1{
+display: none;
+ }
+ .foot ul li{
+    font-size: 10px;
+ }
+ .words{
+    font-size: 15px;
+ }
+ .word p{
+    font-size: 15px;
+ }
+}
+
+
+
+
+
 
 
 
