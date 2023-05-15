@@ -120,6 +120,9 @@ body{
     margin-top: 10%;
     margin-bottom: 5%;
 }
+.team1{
+    display:flex;
+}
 #veg1{
     width: 230px;
     height: 230px;
